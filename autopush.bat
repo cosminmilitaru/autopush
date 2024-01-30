@@ -7,4 +7,4 @@ git commit -m %input%
 git push
 git pull
 echo Input is: %input%
-pause
+@REM pause
