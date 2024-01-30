@@ -6,5 +6,5 @@ git add .
 git commit -m %input%
 git push
 git pull
-echo autopush complet
+echo Autopush completed
 pause
