@@ -1,6 +1,6 @@
 @echo off
-echo Batch Script to take input.
-set /p input= Type git message :  
+echo Starting git autopush...
+set /p input= Git commit message :  
 git pull
 git add .
 git commit -m %input%
