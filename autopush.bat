@@ -2,7 +2,6 @@
 echo Starting git autopush...
 set /p input= Git commit message :  
 git pull
-@REM git rm --cached 
 git add .
 @REM git rm --cached autopush.bat @REM if you want to keep autopush only local
 git commit -m "%input%"
